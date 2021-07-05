@@ -1,11 +1,5 @@
 html, body {
-    margin: 0px;
-    height: 100%;
-    width: 100%;
     text-align: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 1rem;
-    font-weight: normal;
     background-color: #F9F4ED;;
 }
 
@@ -20,17 +14,6 @@ hr {
      margin: 100px auto;
 }
 
-.top-container {
-    position: relative;
-    padding-top: 100px;
-    background: url(https://images.unsplash.com/photo-1620976128192-7181e9f91342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1334&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
 .middle-container {
     margin: 100px 0;
 }
@@ -40,39 +23,9 @@ hr {
     padding: 50px 0 20px;
 }
 
-.code-img {
-    width: 30%;
-    float: left;
-    margin-right: 30px;
-}
-
-.chillies-img {
-    width: 30%;
-    float: right;
-    margin-left: 30px;
-}
-
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-}
-
 .intro {
     width: 30%;
     margin: auto;
-}
-
-.top-cloud {
-    position:absolute;
-    top: 100px;
-    right: 400px;
-
-}
-
-.bottom-cloud {
-    position:absolute;
-
 }
 
 .contact-message {
