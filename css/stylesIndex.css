@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     background: #F9F4ED;
-    background: url(https://images.unsplash.com/photo-1530724520418-b9c8e05208db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80) no-repeat center center fixed;
+    background: url(https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=80) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,6 +34,7 @@ h2 {
 
 a{
     font-family: 'Dosis', sans-serif;
+    text-decoration: none;
 }
 
 .btn {
@@ -48,15 +49,18 @@ a{
     border-color: #cc6666;
 }
 
-.btn-primary:hover {
+.orange:hover, .orange:focus, .orange:active, .orange:focus-visible{
     background-color: #EAA9A9;
     border-color: #EAA9A9;
     border-width: 4px;
+    box-shadow: none !important;
 }
+
 
 .btn-xl {
     padding: 0.5rem 1.5rem;
 }
+
 
 .footer-link {
     color: #F9F4ED;
