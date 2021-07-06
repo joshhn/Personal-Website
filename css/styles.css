@@ -9,13 +9,28 @@ h1 {
     font-family: "Montserrat", "Helvetica", Arial, sans-serif ;
 }
 
-p {
+h2{
+    font-size: 3em;
+    margin: 30px auto;
+    font-weight: 700;
+}
+
+.bio {
+    text-align: left;
+}
+
+h3, p {
     line-height: 2;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .top-container {
-    margin: 5em 20em;
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+
 }
+
 .bottom-container {
     background-color: #cc6666 ;
     padding: 50px 0 20px;
@@ -69,4 +84,16 @@ p {
 
 .logo:hover {
     opacity: 1;
+}
+
+#avatar {
+    border: #cc6666 20px;
+}
+
+.site-guide p {
+    text-align: left;
+}
+
+.buffer {
+    height: 5em;
 }
