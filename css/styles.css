@@ -26,9 +26,6 @@ a:hover, a:active, a:focus, a:focus-visible, a:focus-within {
     color: #EAA9A9;
 }
 
-.bio {
-    text-align: left;
-}
 
 h3, p {
     line-height: 2;
@@ -40,9 +37,15 @@ hr .thick {
     height: 20px;
 }
 
+/* Class Selector in Home Page */
+.bio {
+    text-align: justify;
+}
+
 .top-container {
     display: grid;
     grid-template-columns: 2fr 8fr 2fr;
+    grid-template-rows: max-content;
 
 }
 
@@ -90,6 +93,7 @@ hr .thick {
     font-size: 0.8rem;
     font-size: 0.75rem;
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -103,12 +107,9 @@ hr .thick {
     opacity: 1;
 }
 
-#avatar {
-    border: #cc6666 20px;
-}
 
 .site-guide p {
-    text-align: left;
+    text-align:justify;
 }
 
 .buffer {
@@ -124,3 +125,35 @@ hr .thick {
     margin-bottom:20px;
     
 }
+
+/* Class Selector in About Page */
+
+.introduction p{
+    text-align: justify;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.facts {
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icon{
+    margin-right: 0.4em;
+}
+
+.icon-spinning{
+    animation: spin-animation 1s infinite linear;
+    display: inline-block;
+}
+
+  @keyframes spin-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
