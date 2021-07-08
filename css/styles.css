@@ -132,8 +132,8 @@ hr .thick {
 }
 
 /* Class Selector in About Page */
-p{
-    text-align: justify;
+li{
+    text-align: left;
     font-size: 1.5em;
 }
 
@@ -149,11 +149,21 @@ p{
     grid-template-columns: 1fr 1px 1fr;
 }
 
+
 .icon{
     margin-right: 0.4em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    height:30px;
 }
 
+.title-facts {
+    display: inline-block;
+}
 .icon-spinning{
+    max-width:100%;
+    max-height:100%;
     animation: spin-animation 1s infinite linear;
     display: inline-block;
 }
@@ -175,4 +185,23 @@ p{
 
 .right-facts, .left-facts{
     padding-left: 2em; 
+    padding-right: 2em; 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* Responsive Mobile for Facts */
+@media (max-width: 768px){
+    .facts{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .left-facts, .right-facts {
+        display: block;
+    }
+
+    .name {
+        font-size: 3em;
+    }
 }
