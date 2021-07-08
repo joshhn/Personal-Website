@@ -1165,31 +1165,48 @@ body {
 /* $sm: 640px;
 $standard: 960px;
 $wide: 1280px;
-$ultra-wide: 1440px; */
+$ultra-wide: 1440px; 
+320 - 768 - 992 - 1024 - 1200 - 1400 - 1600
+*/
 
+/* Desktop size */
+@media (min-width: 1024px){
+  .presentation-title {
+    font-size: 8em;
+  }
+  .presentation-subtitle{
+    font-size: 2em;
+  }
 
-
-
-@media (max-width: 960px){
+}
+/* Tablet size */
+@media (min-width: 992px){
   .presentation-title {
     font-size: 7em;
   }
-
-}
-
-@media (max-width: 640px){
-  .presentation-title {
-    font-size: 5em;
+  .presentation-subtitle{
+    font-size: 1.8em;
   }
 }
 
-@media (max-width: 450px){
+/* Mobile size */
+@media (max-width: 992px){
+  .presentation-title {
+    font-size: 6em;
+  }
+  .presentation-subtitle{
+    font-size: 1.6em;
+  }
+
+}
+
+@media (max-width: 768px){
   .presentation-title {
     font-size: 4em;
   }
 
   .presentation-subtitle{
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 }
 

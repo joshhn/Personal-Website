@@ -27,7 +27,7 @@ a:hover, a:active, a:focus, a:focus-visible, a:focus-within {
 }
 
 
-h3, p {
+h3, p{
     line-height: 2;
     font-size: 2em;
     font-weight: 500;
@@ -90,6 +90,7 @@ hr .thick {
 }
 .copyright {
     color: #F9F4ED;
+    text-align: center;
     font-size: 0.8rem;
     font-size: 0.75rem;
     margin-top: 20px;
@@ -120,6 +121,10 @@ hr .thick {
     font-size: 4em;
 }
 
+.contact-message{
+    text-align: center;
+}
+
 .footer-message{
     color:#F9F4ED;
     margin-bottom:20px;
@@ -127,6 +132,10 @@ hr .thick {
 }
 
 /* Class Selector in About Page */
+p{
+    text-align: justify;
+    font-size: 1.5em;
+}
 
 .introduction p{
     text-align: justify;
@@ -137,7 +146,7 @@ hr .thick {
 .facts {
     text-align: justify;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1px 1fr;
 }
 
 .icon{
@@ -157,3 +166,13 @@ hr .thick {
       transform: rotate(360deg);
     }
   }
+
+.seperate-line {
+    width: 1px;
+    background-color: #444;
+    opacity: 0.1;
+}
+
+.right-facts, .left-facts{
+    padding-left: 2em; 
+}
